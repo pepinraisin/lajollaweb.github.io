@@ -5992,7 +5992,8 @@ a.minimal-item:hover {
   bottom: 0;
   max-width: 100%;
   padding: 1.5rem 3.5rem 2.875rem;
-  background: transparent;
+  /* background: transparent; */
+  background: rgba(0, 0, 0, 0.4);
   transition: all .5s linear;
 }
 
