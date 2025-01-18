@@ -2888,6 +2888,8 @@ a:hover .service-item-title {
   align-self: center;
   display: block;
   width: 100%;
+
+  filter: grayscale(1) contrast(0.5);
 }
 
 .partner-item {
@@ -5766,7 +5768,7 @@ a.minimal-item:hover {
 
 .services-flash .service-item:before {
   content: "";
-  background: #ff3600;
+  background: #eee;
   height: 5px;
   width: 0;
   position: absolute;
