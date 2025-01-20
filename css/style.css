@@ -5435,7 +5435,7 @@ a.minimal-item:hover {
   top: 78px;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 575px), (max-height: 450px) {
   .flash-item-nav {
     display: none;
   }
