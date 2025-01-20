@@ -5466,7 +5466,7 @@ a.minimal-item:hover {
   margin-bottom: 0;
 }
 
-@media (min-width: 576px) and (max-width: 1599px) {
+@media (min-height: 451px) and (min-width: 576px) and (max-width: 1599px) {
   .home-flash-section {
     padding-left: 10rem;
   }
