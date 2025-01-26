@@ -8197,7 +8197,7 @@ a.phone-link {
   }
 }
 
-@media (min-height: 1000px){
+@media (min-height: 1000px), (max-width: 768px) {
   .flash-descr {
     font-size: 2vh;
   }
