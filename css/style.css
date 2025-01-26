@@ -2871,10 +2871,13 @@ a:hover .service-item-title {
   transition: all .3s ease-in-out;
 }
 
+.partner-item:hover,
 .partner-item img:hover,
 .partner-item a:hover img,
 .partner-item .inside:hover img {
   opacity: 1;
+  filter: none;
+  background-color: #eee;
 }
 
 .partner-bordered .partner-item {
